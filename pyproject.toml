@@ -1,0 +1,36 @@
+[project]
+name = "booking-api"
+version = "1.0.0"
+description = "REST API для бронирования отелей на FastAPI с использованием паттернов Repository и DataMapper"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.17.2",
+    "asyncpg>=0.31.0",
+    "bcrypt==3.2.2",
+    "black>=25.12.0",
+    "fastapi>=0.124.0",
+    "greenlet>=3.3.0",
+    "ipykernel>=7.1.0",
+    "passlib>=1.7.4",
+    "pip>=25.3",
+    "pydantic[email]>=2.12.5",
+    "pydantic-settings>=2.12.0",
+    "pyjwt>=2.10.1",
+    "ruff>=0.14.8",
+    "sqlalchemy>=2.0.44",
+    "uvicorn>=0.38.0",
+    "redis>=7.1.0",
+    "fastapi-cache2>=0.2.2",
+    "celery>=5.6.0",
+    "python-multipart>=0.0.21",
+    "pillow>=12.0.0",
+    "celery-types>=0.24.0",
+    "pytest>=9.0.2",
+    "pytest-dotenv>=0.5.2",
+    "pytest-asyncio>=1.3.0",
+    "httpx>=0.28.1",
+    "pyright>=1.1.407",
+]
+[tool.ruff]
+line-length = 100
